@@ -28,6 +28,6 @@ class Price:
         self.price_day = price_day
         self.price_time = price_time
         self.price = price
-    
+
     def __repr__(self):
         return f"Price(user_type={self.user_type}, price_day={self.price_day}, price_time={self.price_time}, price={self.price})"
