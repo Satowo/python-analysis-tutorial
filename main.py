@@ -24,4 +24,7 @@ def main():
     create_shop_csv(result_shops, "jankara.csv")
 
 if __name__ == "__main__":
+    # shop = get_shop(25)
+    # print(shop)
+    # create_shop_csv([shop], "jankara.csv")
     main()

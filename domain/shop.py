@@ -7,5 +7,6 @@ from domain.price import Price
 class Shop:
     shop_number: int
     name: str
+    postal_code: str
     address: str
     prices: List[Price]
